@@ -1,0 +1,230 @@
+﻿body {
+    width: 1600px;
+    height: 2240px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    cursor: default;
+    text-align: center;
+}
+
+header {        
+    background-color: #262626;    
+    font-weight: 900;
+    font-size: 13px;    
+}
+
+.subHeader {
+    height: 400px;
+    background-color: #2a2a2a;       
+    color: #d9d9d9;    
+}
+
+.subHeader p {
+    font-weight: 300;
+    font-size: 40px;
+    width: 1060px;
+    margin: 0 auto;    
+    margin-bottom: 60px;    
+}
+
+.container1 {
+    width: 1110px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 {    
+    width: 1110px;
+    height: 370px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 p {
+    font-size: 14px;  
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+.container2 div {
+    width: 225px;
+    margin-top: 90px;    
+    color: #616161;    
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 span {
+    font-weight: 900;
+    font-size: 18px;    
+}
+
+nav {
+    margin-top: 45px;
+}
+
+nav a {
+    text-transform: uppercase;    
+    color: #a1a1a1;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff6760;    
+    border-bottom: 2px solid #ff6760;
+}
+
+.text {
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.text span {    
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    color: #d9d9d9;
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo img {
+    margin-top: 35px; 
+    margin-bottom: 32px
+}
+
+.logo span {
+    margin-top: 32px;
+}
+
+.button {    
+    background-color: #ff6760;    
+    margin: 0 auto;
+    border-radius: 5px;       
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 900;    
+}
+
+.button:hover {
+    background-color: #495f6d;    
+}
+
+.button:active {
+    border-top: 1px solid black;
+    border-left: 1px solid black;       
+}
+
+.buttons {
+    display: flex;
+    width: 390px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.first {
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-bottom: 60px;
+}
+
+.second {
+    width: 1110px;
+    margin: 0 auto;    
+    height: 940px;
+    color: #616161;    
+}
+
+.second span {
+    font-size: 30px;
+    font-weight: 900;     
+}
+
+.second p {
+    color: #616161;
+    margin-top: 15px; 
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 60px;
+}
+
+.subFooter {
+    height: 240px;
+    background-color: #313131;     
+    padding-top: 60px;
+}
+
+.subFooter span {
+    font-size: 30px;
+    font-weight: 900; 
+    color: #e0e0e0;
+}
+
+.subFooter p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #9b9b9b;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 45px;
+    background-color: #2c2c2c;
+    font-size: 14px;
+    color: #9b9b9b;
+    padding-top: 35px;
+    font-weight: 400;
+}
+
+.contact {
+    display: flex;
+    width: 440px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.contact span {
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: 400;
+}
+
+.img {
+    margin-right: 6px;
+    margin-bottom: 6px;    
+}
+
+.opacity img:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.svg {
+    width: 180px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 30px;    
+}
+
+.svg img {
+    height: 30px;
+}
+

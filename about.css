@@ -1,0 +1,105 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    cursor: default;
+    color: white;
+    margin: 0 auto;
+    width: 1600px;
+    font-family: 'Lato', sans-serif;
+}
+
+header {         
+    background-color: #262626;
+}
+
+main {
+    background-color: #313131;
+}
+
+nav {
+    text-align: right;
+    margin-top: 30px;
+}
+
+nav a {
+    margin-left: 12px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #ff6760;    
+    border-bottom: 2px solid #ff6760;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    display: flex;
+    padding-top : 20px;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;    
+}
+
+footer {
+    height: 100px;    
+    background-color: #111111;
+    display: flex;
+}
+
+footer div {
+    width: 50%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+p {
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+iframe {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+form {       
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100px;   
+    margin-top: 5px;
+    margin-bottom: 7px;
+    color: #7575a0;
+    cursor: pointer;
+}
+
+textarea {
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    height: 50px;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 10px 32px 12px 0px;
+    font-size: 50px;
+}
+
